@@ -1,5 +1,0 @@
-version: 1
-update_configs:
-  - package_manager: 'ruby:bundler'
-    directory: '/src/bundler/v1'
-    update_schedule: 'daily'
