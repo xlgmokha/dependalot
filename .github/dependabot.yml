@@ -1,0 +1,15 @@
+version: 2
+registries:
+  rubygems-server-gem-fury-io-example:
+    type: rubygems-server
+    url: https://gem.fury.io/example
+    token: "${{secrets.RUBYGEMS_SERVER_GEM_FURY_IO_EXAMPLE_TOKEN}}"
+
+updates:
+- package-ecosystem: bundler
+  directory: "/src/bundler/v1"
+  schedule:
+    interval: daily
+  open-pull-requests-limit: 10
+  registries:
+  - rubygems-server-gem-fury-io-example
