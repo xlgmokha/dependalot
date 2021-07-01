@@ -54,7 +54,7 @@ python-versions = "*"
 
 [[package]]
 name = "zstd"
-version = "1.4.5.1"
+version = "1.5.0.2"
 description = "ZSTD Bindings for Python"
 category = "main"
 optional = false
@@ -63,7 +63,7 @@ python-versions = "*"
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.9"
-content-hash = "97c50567cc0fe0f88517c83a4a79f9fae7452764fbe033380c740ef367d86887"
+content-hash = "516fbecbdb43716566e0654a846c4fe339ee102252aa1587c88d37d7c8ed366e"
 
 [metadata.files]
 mypy = [
@@ -108,5 +108,5 @@ typing-extensions = [
     {file = "typing_extensions-3.10.0.0.tar.gz", hash = "sha256:50b6f157849174217d0656f99dc82fe932884fb250826c18350e159ec6cdf342"},
 ]
 zstd = [
-    {file = "zstd-1.4.5.1.tar.gz", hash = "sha256:2a1806d625bd2d8944ead4b3018fc6444a31467fa09935e9c1d4296275f024c6"},
+    {file = "zstd-1.5.0.2.tar.gz", hash = "sha256:8d3388a15135c481b28ca67d079cb5fd79a9691626fd9979e6b4ec00eabb9e79"},
 ]
