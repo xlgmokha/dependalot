@@ -15,6 +15,11 @@ typing-extensions = ">=3.7.4"
 dmypy = ["psutil (>=4.0)"]
 python2 = ["typed-ast (>=1.4.0,<1.5.0)"]
 
+[package.source]
+type = "legacy"
+url = "https://xlgmokha.jfrog.io/artifactory/api/pypi/xlg-pypi/simple"
+reference = "jfrog"
+
 [[package]]
 name = "mypy-extensions"
 version = "0.4.3"
@@ -23,13 +28,18 @@ category = "dev"
 optional = false
 python-versions = "*"
 
+[package.source]
+type = "legacy"
+url = "https://xlgmokha.jfrog.io/artifactory/api/pypi/xlg-pypi/simple"
+reference = "jfrog"
+
 [[package]]
 name = "six"
-version = "0.9.1"
+version = "1.16.0"
 description = "Python 2 and 3 compatibility utilities"
 category = "main"
 optional = false
-python-versions = "*"
+python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*"
 
 [package.source]
 type = "legacy"
@@ -44,6 +54,11 @@ category = "dev"
 optional = false
 python-versions = ">=2.6, !=3.0.*, !=3.1.*, !=3.2.*"
 
+[package.source]
+type = "legacy"
+url = "https://xlgmokha.jfrog.io/artifactory/api/pypi/xlg-pypi/simple"
+reference = "jfrog"
+
 [[package]]
 name = "typing-extensions"
 version = "3.10.0.0"
@@ -51,6 +66,11 @@ description = "Backported and Experimental Type Hints for Python 3.5+"
 category = "dev"
 optional = false
 python-versions = "*"
+
+[package.source]
+type = "legacy"
+url = "https://xlgmokha.jfrog.io/artifactory/api/pypi/xlg-pypi/simple"
+reference = "jfrog"
 
 [[package]]
 name = "zstd"
@@ -60,10 +80,15 @@ category = "main"
 optional = false
 python-versions = "*"
 
+[package.source]
+type = "legacy"
+url = "https://xlgmokha.jfrog.io/artifactory/api/pypi/xlg-pypi/simple"
+reference = "jfrog"
+
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.9"
-content-hash = "516fbecbdb43716566e0654a846c4fe339ee102252aa1587c88d37d7c8ed366e"
+content-hash = "1a1d9882c4d9c4d2b921a23beb04079473f7cdd3a002f2e29ba385a65cf65f39"
 
 [metadata.files]
 mypy = [
@@ -96,7 +121,8 @@ mypy-extensions = [
     {file = "mypy_extensions-0.4.3.tar.gz", hash = "sha256:2d82818f5bb3e369420cb3c4060a7970edba416647068eb4c5343488a6c604a8"},
 ]
 six = [
-    {file = "six-0.9.1.tar.gz", hash = "sha256:23a656e7db613f75d061570e3b2cf57d2a498501018593e6a01e24ed211a78dc"},
+    {file = "six-1.16.0-py2.py3-none-any.whl", hash = "sha256:8abb2f1d86890a2dfb989f9a77cfcfd3e47c2a354b01111771326f8aa26e0254"},
+    {file = "six-1.16.0.tar.gz", hash = "sha256:1e61c37477a1626458e36f7b1d82aa5c9b094fa4802892072e49de9c60c4c926"},
 ]
 toml = [
     {file = "toml-0.10.2-py2.py3-none-any.whl", hash = "sha256:806143ae5bfb6a3c6e736a764057db0e6a0e05e338b5630894a5f779cabb4f9b"},
