@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "example"
+version = "0.1.0"
+description = ""
+authors = ["mo khan <xlgmokha@example.org>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+six = { version = "0.9.1", source = "jfrog" }
+zstd = {version = "1.4.5.1", source = "pypi"}
+
+[tool.poetry.dev-dependencies]
+mypy = "^0.812"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[[tool.poetry.source]]
+name = "jfrog"
+url = "https://xlgmokha.jfrog.io/artifactory/api/pypi/xlg-pypi/simple/"

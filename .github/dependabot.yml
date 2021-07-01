@@ -1,7 +1,23 @@
 version: 2
+registries:
+  python-jfrog:
+    type: python-index
+    url: https://xlgmokha.jfrog.io/artifactory/api/pypi/xlg-pypi/simple
+    username: ${{secrets.PYTHON_JFROG_USERNAME}}
+    password: ${{secrets.PYTHON_JFROG_PASSWORD}}
+updates:
 updates:
   - package-ecosystem: "bundler"
-    directory: '/src/bundler/v1'
+    directory: "/src/bundler/v1"
+    schedule:
+      interval: "daily"
+    assignees:
+      - "xlgmokha"
+  - package-ecosystem: "pip"
+    directory: "/src/poetry/jfrog"
+    insecure-external-code-execution: allow
+    registries:
+      - python-jfrog
     schedule:
       interval: "daily"
     assignees:
