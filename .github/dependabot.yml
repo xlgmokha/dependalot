@@ -33,3 +33,9 @@ updates:
       - terraform-private
     assignees:
       - "xlgmokha"
+  - package-ecosystem: gomod
+    directory: '/'
+    schedule:
+      interval: 'daily'
+    assignees:
+      - "xlgmokha"
