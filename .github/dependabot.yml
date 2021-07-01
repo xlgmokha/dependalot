@@ -5,7 +5,10 @@ registries:
     url: https://xlgmokha.jfrog.io/artifactory/api/pypi/xlg-pypi/simple
     username: ${{secrets.PYTHON_JFROG_USERNAME}}
     password: ${{secrets.PYTHON_JFROG_PASSWORD}}
-updates:
+  terraform-private:
+    type: terraform-registry
+    url: https://app.terraform.io
+    token: ${{secrets.TERRAFORM_TOKEN}}
 updates:
   - package-ecosystem: "bundler"
     directory: "/src/bundler/v1"
@@ -20,5 +23,13 @@ updates:
       - python-jfrog
     schedule:
       interval: "daily"
+    assignees:
+      - "xlgmokha"
+  - package-ecosystem: terraform
+    directory: '/src/terraform/private'
+    schedule:
+      interval: 'daily'
+    registries:
+      - terraform-private
     assignees:
       - "xlgmokha"
