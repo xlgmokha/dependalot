@@ -16,6 +16,12 @@ updates:
       interval: "daily"
     assignees:
       - "xlgmokha"
+  - package-ecosystem: "bundler"
+    directory: "/src/bundler/v2"
+    schedule:
+      interval: "daily"
+    assignees:
+      - "xlgmokha"
   - package-ecosystem: "pip"
     directory: "/src/poetry/jfrog"
     insecure-external-code-execution: allow
