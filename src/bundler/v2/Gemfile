@@ -4,3 +4,4 @@ source "https://rubygems.org"
 
 gem "rails", "~> 6.1"
 gem "net-hippie", "~> 1.0"
+gem "xml-kit", "~> 0.2"
