@@ -74,21 +74,16 @@ reference = "jfrog"
 
 [[package]]
 name = "zstd"
-version = "1.5.0.2"
+version = "1.5.0.4"
 description = "ZSTD Bindings for Python"
 category = "main"
 optional = false
 python-versions = "*"
 
-[package.source]
-type = "legacy"
-url = "https://xlgmokha.jfrog.io/artifactory/api/pypi/xlg-pypi/simple"
-reference = "jfrog"
-
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.9"
-content-hash = "1a1d9882c4d9c4d2b921a23beb04079473f7cdd3a002f2e29ba385a65cf65f39"
+content-hash = "b3cb282eed649f9eed07c45cd4a739f0b60a412d2ca2843ae030ac2b0003330f"
 
 [metadata.files]
 mypy = [
@@ -134,5 +129,5 @@ typing-extensions = [
     {file = "typing_extensions-3.10.0.0.tar.gz", hash = "sha256:50b6f157849174217d0656f99dc82fe932884fb250826c18350e159ec6cdf342"},
 ]
 zstd = [
-    {file = "zstd-1.5.0.2.tar.gz", hash = "sha256:8d3388a15135c481b28ca67d079cb5fd79a9691626fd9979e6b4ec00eabb9e79"},
+    {file = "zstd-1.5.0.4.tar.gz", hash = "sha256:0d048f03fc6354c565ac1e36bb6bf697cfe9941217717fc6a2076529d8b860c3"},
 ]
