@@ -78,7 +78,7 @@ GEM
     mini_mime (1.1.2)
     mini_portile2 (2.6.1)
     minitest (5.14.4)
-    net-hippie (1.0.0)
+    net-hippie (1.1.1)
     nio4r (2.5.8)
     nokogiri (1.12.5)
       mini_portile2 (~> 2.6.1)
@@ -142,7 +142,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  net-hippie (~> 1.0)
+  net-hippie (~> 1.1)
   rails (~> 6.1)
   xml-kit (~> 0.2)
 
