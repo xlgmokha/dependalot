@@ -7,7 +7,7 @@ authors = ["mo khan <xlgmokha@example.org>"]
 [tool.poetry.dependencies]
 python = "^3.9"
 six = { version = "1.16.0", source = "jfrog" }
-zstd = {version = "1.5.0.4", source = "pypi"}
+zstd = {version = "1.5.1.0", source = "pypi"}
 
 [tool.poetry.dev-dependencies]
 mypy = "^0.931"
