@@ -10,7 +10,7 @@ six = { version = "1.16.0", source = "jfrog" }
 zstd = {version = "1.5.1.0", source = "pypi"}
 
 [tool.poetry.dev-dependencies]
-mypy = "^0.941"
+mypy = "^0.942"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
